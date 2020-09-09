@@ -1,4 +1,4 @@
-LOCAL_PATH := device/oukitel/wp5
+LOCAL_PATH := device/oukitel/WP5
 
 # Architecture
 TARGET_ARCH := arm64

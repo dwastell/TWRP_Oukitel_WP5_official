@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := wp5
+PRODUCT_RELEASE_NAME := WP5
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -9,10 +9,10 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := OUKITEL
-PRODUCT_DEVICE := wp5
+PRODUCT_DEVICE := WP5
 PRODUCT_MANUFACTURER := OUKITEL
-PRODUCT_MODEL := wp5
-PRODUCT_NAME := omni_wp5
+PRODUCT_MODEL := WP5
+PRODUCT_NAME := omni_WP5
 
 # enable stock zip packages flash
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
